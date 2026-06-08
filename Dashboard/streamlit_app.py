@@ -400,18 +400,6 @@ with right:
             use_container_width=True
         )
 
-#THIRD ROW
-# RAW DATA SECTION
-with st.container(border=True):
-
-    st.subheader("Raw Data")
-
-    st.dataframe(
-        raw_df,
-        use_container_width=True,
-        hide_index=True
-    )
-
     
 
 sns.set_style("whitegrid")
